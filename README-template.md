@@ -48,5 +48,3 @@
 ## sitio1-url 
 ## sitio2-url
 ## url de donde tomo info para desarrollar este proyecto
-
-#### versión README.md -> 1.0 (2022-agosto)
