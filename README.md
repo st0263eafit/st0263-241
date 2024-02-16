@@ -1,6 +1,6 @@
 # st0263-2024-1
 
-## instalación de docker en AMI Ubuntu:22.04
+## Instalación de docker en AMI Ubuntu:22.04
 
 ### Instalar docker en ubuntu:22.04
 
