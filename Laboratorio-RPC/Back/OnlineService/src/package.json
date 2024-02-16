@@ -1,0 +1,20 @@
+{
+  "name": "src",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@grpc/grpc-js": "^1.8.9",
+    "@grpc/proto-loader": "^0.7.5",
+    "async": "^3.2.4",
+    "dotenv": "^16.0.3"
+  }
+}
