@@ -11,7 +11,7 @@ Creando tu propio cluster, videos guia de como crear y usar cluser Amazon EMR co
 
 * [datasets](datasets)
 
-## Lab5. Hadoop, Archivos Distribuidos y Map-Reduce
+## Reto 5 - Hadoop, Archivos Distribuidos y Map-Reduce
 
 ### Crear y gestionar Clusters Amazon EMR
 
