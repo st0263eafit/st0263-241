@@ -113,9 +113,9 @@ sudo certbot --server https://acme-v02.api.letsencrypt.org/directory -d *.emonto
 
 despues de clonar este repositorio en el destino:
 
-    git clone https://github.com/st0263eafit/st0263-232.git
+    git clone https://github.com/st0263eafit/st0263-241.git
 
-    cd st0263-232/docker-nginx-wordpress-ssl-letsencrypt
+    cd st0263-241/docker-nginx-wordpress-ssl-letsencrypt
 
 ### si quiere todo en la misma máquina:
     sudo cp docker-compose.yml /home/gcp-username/wordpress

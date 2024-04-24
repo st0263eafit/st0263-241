@@ -1,0 +1,9 @@
+id,id
+country,country
+hdi,Human Development Index (HDI)
+lifeex,Life expectancy at birth
+myschool,Mean years of schooling
+eyschool,Expected years of schooling
+gni,Gross National Income (GNI) per capita
+gni2,GNI per capita rank minus HDI rank
+nihdi,Nonincome HDI

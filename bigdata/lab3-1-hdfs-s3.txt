@@ -1,0 +1,43 @@
+ST0263 TÓPICOS ESPECIALES EN TELEMÁTICA, 2024-1
+
+LAB 3-1: GESTIÓN DE ARCHIVOS EN HDFS Y S3 PARA BIG DATA
+
+Fecha sugerida de terminación de este lab antes del 17 de mayo 2024.
+
+1. trabajo individual, cada estudiante deberá responder por estas actividades.
+
+2. seguir los lineamientos del github:
+
+https://github.com/st0263eafit/st0263-241/tree/main/bigdata
+
+HACER LAS ACTIVIDADES PROPUESTAS EN:
+
+https://github.com/st0263eafit/st0263-241/tree/main/bigdata/01-hdfs
+
+3. Tener en cuenta la creación previa en el lab3-0 de la creación de un clúster EMR (ver videos previamente enviados), activará HUE, recuerden que deben crear un user 'hadoop' con la clave que gusten.
+
+También se deben conectar vía shell (ssh) al nodo master del clúster EMR, donde realizará las actividades de HDFS CLI
+
+En este cluster deben hacer:
+
+* Copiar (gestión) de archivos hacia el HDFS vía HUE.
+
+* Copiar (gestión) de archivos hacia el HDFS vía SSH.
+
+Recuerden que estos datos de HDFS son efímeros o temporales y se borran cuando se borre el clúster.
+
+* Copiar (gestión) de archivos hacia AWS S3 vía HUE.
+
+* Copiar (gestión) de archivos hacia el AWS S3 vía SSH.
+
+En esta infraestructura, cada alumno deberá realizar el copiado de los archivos datasets de:
+
+https://github.com/st0263eafit/st0263-241/tree/main/bigdata/datasets
+
+5. Cada alumno, de forma individual, deberá realizar estos labs.
+
+Respecto a los buckets S3, deberán quedar de lectura pública (una simple consulta google: aws s3 public access, les dará los tips para lograrlo).
+
+Este informe lab3-0, debe ser enviado por email de Interactiva Virtual, especificando explícitamente la URL de bucket publico donde están los datasets de trabajo.
+
+Además debe depositar las evidencias en el formato template distribuido a cada estudiante en el onedrive de la materia.

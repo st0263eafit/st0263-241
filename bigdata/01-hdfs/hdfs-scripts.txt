@@ -1,0 +1,29 @@
+# Universidad EAFIT
+# Curso ST0263 Tópicos Especiales en Telemática, 2024-1
+
+# carga de datos a HDFS por terminal:
+
+verifique que haya clonado el repo de la materia en el nodo master del cluster AWS EMR:
+
+$ git clone https://github.com/st0263eafit/st0263-241.git
+
+hdfs dfs -ls /
+hdfs dfs -ls /user
+hdfs dfs -ls /user/hadoop
+hdfs dfs -ls /user/hadoop/datasets
+
+hdfs dfs -mkdir /user/hadoop/datasets
+
+hdfs dfs -mkdir /user/hadoop/datasets/gutenberg
+
+hdfs dfs -put /home/ec2-home/st0263-241/bigdata/datasets/gutenberg-small/*.txt /user/hadoop/datasets/gutenberg/
+
+hdfs dfs -copyFromLocal /home/ec2-home/st0263-241/bigdata/datasets/gutenberg-small/*.txt /user/hadoop/datasets/gutenberg/
+hdfs dfs -ls /user/hadoop/datasets
+hdfs dfs -ls /user/hadoop/datasets/gutenberg-small
+
+hdfs dfs -get /user/hadoop/datasets/gutenberg-small/*.txt ~hadoop/mis_datasets/
+
+hdfs dfs -copyToLocal /user/hadoop/datasets/gutenberg-small/*.txt ~hadoop/mis_datasets/
+
+ls -l mis_datasets
